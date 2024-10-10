@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculumvitae lang="es">
+<cv>
+    <info>
+        <nombre>Francesc</nombre>
+        <apellidos>Ferrero Pons</apellidos>
+        <edad>20</edad>
+        <email>kikoferreropons@gmail.com</email>
+        <numerotelefonico>+34 692 818 760</numerotelefonico>
+    </info>
+    <titulosAcademicos>
+        <titulo>Educación Secundaria Obligatoria</titulo>
+        <titulo>Grado Medio De Sistemas Microinformáticos y redes</titulo>
+    </titulosAcademicos>
+    <experiencialaboral>
+        <experiencia>Experiencia como operador de cámaras de seguridad</experiencia>
+    </experiencialaboral>
+<cv>
