@@ -7,12 +7,10 @@
         <rarity>raro</rarity>
         <damage>6</damage>
         <description>herramienta para recolectar madera</description>
-        <crafteable>true</crafteable>
         <materials>
             <material>palo</material>
             <material>lingote de oro</material>
         </materials>
-        <enchantable>true</enchantable>
         <enchantments>
             <enchantment>eficiencia 3</enchantment>
             <enchantment>irrompibilidad 3</enchantment>
@@ -25,11 +23,9 @@
         <rarity>común</rarity>
         <damage>null</damage>
         <description>bloque de ladrillo</description>
-        <crafteable>true</crafteable>
         <materials>
             <material>piedra</material>
         </materials>
-        <enchantable>false</enchantable>
     </item>
      <item>
   <item id="76" crafteable="true" enchantable="true" destruible="true" desgasteEnCadaUso="2">
