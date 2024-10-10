@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NotasAsix lang="es">
+<1Aevaluacion>
+    <alumno>
+        <nombre>Paco</nombre>
+        <apellidos>García Rodríguez</apellidos>
+        <nia>75672628</nia>
+    </alumno>
+    <modulos>
+        <asignatura>
+            <nombre>Planificación Y Administración De Redes</nombre>
+            <nota>6</nota>
+        </asignatura>
+        <asignatura>
+            <nombre>Implantación De Sistemas Operativos</nombre>
+            <nota>8</nota>
+        </asignatura>
+        <asignatura>
+            <nombre>Lenguajes De Marcas</nombre>
+            <nota>9</nota>
+        </asignatura>
+        <asignatura>
+            <nombre>Proyecto Intermodular</nombre>
+            <nota>5</nota>
+        </asignatura>
+          <asignatura>
+            <nombre>Gestión De Bases De Datos</nombre>
+            <nota>3</nota>
+        </asignatura>
+    </modulos>
+</1Aevaluacion>
