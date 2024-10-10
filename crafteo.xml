@@ -1,0 +1,64 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <minecraftItems lang="es">
+    <item>
+  <item id="65" crafteable="true" enchantable="true" destruible="true" desgasteEnCadaUso="4">
+        <name>hacha de oro</name>
+        <type>herramienta</type>
+        <rarity>raro</rarity>
+        <damage>6</damage>
+        <description>herramienta para recolectar madera</description>
+        <crafteable>true</crafteable>
+        <materials>
+            <material>palo</material>
+            <material>lingote de oro</material>
+        </materials>
+        <enchantable>true</enchantable>
+        <enchantments>
+            <enchantment>eficiencia 3</enchantment>
+            <enchantment>irrompibilidad 3</enchantment>
+        </enchantments>
+    </item>
+    <item>
+  <item id="22" crafteable="true" enchantable="false" destruible="false">
+        <name>ladrillo</name>
+        <type>bloque</type>
+        <rarity>común</rarity>
+        <damage>null</damage>
+        <description>bloque de ladrillo</description>
+        <crafteable>true</crafteable>
+        <materials>
+            <material>piedra</material>
+        </materials>
+        <enchantable>false</enchantable>
+    </item>
+     <item>
+  <item id="76" crafteable="true" enchantable="true" destruible="true" desgasteEnCadaUso="2">
+        <name>pechera de hierro</name>
+        <type>armadura</type>
+        <rarity>raro</rarity>
+        <damage>null</damage>
+        <description>parte de armadura de hierro</description>
+        <materials>
+            <material>lingotes de hierro</material>
+        </materials>
+         <enchantments>
+            <enchantment>protección 3</enchantment>
+            <enchantment>irrompibilidad 3</enchantment>
+        </enchantments>
+    </item>
+    <item>
+  <item id="76" crafteable="true" enchantable="true" destruible="true" desgasteEnCadaUso="1">
+        <name>casco de diamante</name>
+        <type>armadura</type>
+        <rarity>raro</rarity>
+        <damage>null</damage>
+        <description>parte de armadura de diamante</description>
+        <materials>
+            <material>lingotes de diamante</material>
+        </materials>
+         <enchantments>
+            <enchantment>protección 1</enchantment>
+            <enchantment>irrompibilidad 2</enchantment>
+        </enchantments>
+    </item>
+ </minecraftItems>
