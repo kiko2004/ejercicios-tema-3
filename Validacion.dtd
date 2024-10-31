@@ -7,5 +7,5 @@
 <!ELEMENT description (#PCDATA)>
 <!ELEMENT materials (material+)>
 <!ELEMENT material (#PCDATA)>
-<!ELEMENT enchantments (enchantment*)>
+<!ELEMENT enchantments (enchantment)>
 <!ELEMENT enchantment (#PCDATA)>
