@@ -1,4 +1,5 @@
  <?xml version="1.0" encoding="UTF-8"?>
+ <!DOCTYPE minecraftItems SYSTEM "Validacion.dtd">
  <minecraftItems lang="es">
     <item>
   <item id="65" crafteable="true" enchantable="true" destruible="true" desgasteEnCadaUso="4">
