@@ -1,0 +1,26 @@
+<!ELEMENT facturas (factura+)>
+<!ELEMENT factura (numero, fecha, cliente, productos, resumen)>
+<!ATTLIST factura id CDATA #REQUIRED>
+
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT cliente (dni, nombre, direccion, codigo_postal, poblacion)>
+<!ELEMENT dni (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (cantidad, descripcion, precio_unitario, iva)>
+<!ATTLIST producto codigo CDATA #REQUIRED>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio_unitario (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+
+<!ELEMENT resumen (forma_pago, descuento?)>
+<!ELEMENT forma_pago (#PCDATA)>
+<!ATTLIST forma_pago tipo (efectivo | tarjeta | cheque | transferencia) #REQUIRED>
+<!ELEMENT descuento (#PCDATA)>

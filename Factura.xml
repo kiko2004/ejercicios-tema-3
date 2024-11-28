@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE facturas SYSTEM "facturas.dtd">
+<facturas>
+    <factura id="01">
+        <numero>001</numero>
+        <fecha>2021-10-23</fecha>
+        <cliente>
+            <dni>23572334A</dni>
+            <nombre>Paco Molines</nombre>
+            <direccion>Calle Sol/12</direccion>
+            <codigo_postal>03740</codigo_postal>
+            <poblacion>Gata de Gorgos</poblacion>
+        </cliente>
+        <productos>
+            <producto codigo="01">
+                <cantidad>2</cantidad>
+                <descripcion>Ratón óptico</descripcion>
+                <precio_unitario>100.00</precio_unitario>
+                <iva>21</iva>
+            </producto>
+            <producto codigo="02">
+                <cantidad>1</cantidad>
+                <descripcion>Teclado mecánico</descripcion>
+                <precio_unitario>80.00</precio_unitario>
+                <iva>21</iva>
+            </producto>
+        </productos>
+        <resumen>
+            <forma_pago tipo="tarjeta">tarjeta</forma_pago>
+            <descuento>10.00</descuento>
+        </resumen>
+    </factura>
+    <factura id="02">
+        <numero>002</numero>
+        <fecha>2022-04-15</fecha>
+        <cliente>
+            <dni>87675621B</dni>
+            <nombre>María Soler</nombre>
+            <direccion>Calle Trossets/27</direccion>
+            <codigo_postal>03740</codigo_postal>
+            <poblacion>Gata de Gorgos</poblacion>
+        </cliente>
+        <productos>
+            <producto codigo="03">
+                <cantidad>5</cantidad>
+                <descripcion>Auriculares Inalámbricos</descripcion>
+                <precio_unitario>50.00</precio_unitario>
+                <iva>21</iva>
+            </producto>
+            <producto codigo="04">
+                <cantidad>2</cantidad>
+                <descripcion>Impresora Láser</descripcion>
+                <precio_unitario>160.00</precio_unitario>
+                <iva>21</iva>
+            </producto>
+        </productos>
+        <resumen>
+            <forma_pago tipo="transferencia">transferencia</forma_pago>
+        </resumen>
+    </factura>
+</facturas>
